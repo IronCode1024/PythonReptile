@@ -1,0 +1,10 @@
+视频列表：https://www.zlketang.com/wxpub/api/video_show?from=web&channel=web&devtype=web&platform_type=web&v_date=&t=1620488171308&teacher_id=17&year=2020&course_id=147&video_id=12769&system=win
+视频列表中的 hls为一个完整视频，这个列表里面有这个视频的所有的视频碎片
+视频碎片位置在hls列表中，拼接方式如下：
+playlist列表中的碎片
+715261a0771d46b2a7c03db4b1649b7c-0a2fac0adaca11677ea1303cc7c906f8-od-S00000001-100000-00001.ts?rlimit=3&sign=99904c8a680e2073eaba2c84bbdbddc4&t=6096e84a&us=1620488202963_6220_1000
+拼接
+http://tvod.zlketang.com/03131334vodsh1253769091/acd653765285890806069912685/
+这个地址就是一个视频碎片地址
+http://tvod.zlketang.com/03131334vodsh1253769091/acd653765285890806069912685/715261a0771d46b2a7c03db4b1649b7c-0a2fac0adaca11677ea1303cc7c906f8-od-S00000001-100000-00001.ts?rlimit=3&sign=99904c8a680e2073eaba2c84bbdbddc4&t=6096e84a&us=1620488202963_6220_1000
+
